@@ -1,0 +1,101 @@
+.heading{
+    margin-top: 80px;
+    text-align: center;
+    color: rgb(57, 44, 69);
+    font-family: Lucida Sans Typewriter,Lucida Console,monaco,Bitstream Vera Sans Mono,monospace;
+    font-weight: 350px;
+    margin-left: 2px;
+}
+.info{
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+    font-family: Goudy Old Style,Garamond,Big Caslon,Times New Roman,serif; ; 
+    font-weight: 150px;
+    font-size:25px;
+}
+.guess{
+    text-align: center;
+    font-weight: 400px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+}
+.generate{
+    text-align: center;
+    font-weight: 400px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+}
+.box{
+    align-self: center;
+    width:200px;
+}
+.guessSubmit{
+    margin-left: 700px;
+    border-radius: 120px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    cursor: pointer;
+    padding: 7px 11px 8px 15px;
+    background-color: chocolate;
+    margin-top: 30px;
+    color: rgb(31, 1, 1);
+    font-size: 20px;
+}
+.bo{
+    background-image: url("wood.avif");
+    background-attachment: fixed;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 500);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.bo img{
+    width: 50000px;
+}
+#first{
+    margin-top: 80px;
+    margin-left: 0px;
+}
+#loading{
+    margin-top: 150px;
+    margin-left:650px;
+}
+#afterloading{
+    margin-top: 150px;
+    margin-left:550px;
+}
+#para{
+    margin-left: 650px;
+    font-size: 50px;
+    color: rgb(15, 18, 83);
+}
+#sub{
+    background-color: rgb(139, 94, 23);
+    margin-left:150px;
+    font-size: 25px;
+    border-radius: 150px;
+    border-color: black;
+    border-style: solid;
+    font-family: Goudy Old Style,Garamond,Big Caslon,Times New Roman,serif;
+}
+#result{
+    text-align: center;
+    font-weight: 400px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+    margin-left: 40px;
+    margin-top: 150px;
+    font-size: 50px;
+}
+#btn{
+    background-color: rgb(228, 132, 190);
+    margin-left: 680px;
+    font-size: 25px;
+    border-radius: 550px;
+    border-color: black;
+    border-style: solid;
+    font-family: Goudy Old Style,Garamond,Big Caslon,Times New Roman,serif;
+    cursor: pointer;
+    margin-top: 60px;
+}
